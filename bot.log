@@ -1,0 +1,30 @@
+2025-09-24 02:41:29,223 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 02:44:04,597 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 02:44:20,990 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 02:44:22,203 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 02:45:59,455 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 02:46:01,376 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 02:46:02,712 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 03:08:50,156 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 13:16:04,973 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 20:50:46,631 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 20:51:59,206 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-24 20:53:39,296 - market_orders - INFO - Attempting market buy order: 10.0 ETHUSDT
+2025-09-24 20:53:39,769 - market_orders - ERROR - Binance API error placing market order: APIError(code=-2022): ReduceOnly Order is rejected.
+2025-09-24 20:54:46,163 - market_orders - INFO - Attempting market buy order: 30.0 ETHUSDT
+2025-09-24 20:54:46,637 - market_orders - INFO - Market order placed successfully: {'orderId': 5027420902, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ71be296e9064442d070152', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '30.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758727486320}
+2025-09-24 20:57:15,508 - market_orders - INFO - Retrieved order status for 5027420902: FILLED
+2025-09-24 21:03:05,881 - market_orders - INFO - Attempting market buy order: 10.0 BTCUSDT
+2025-09-24 21:03:06,373 - market_orders - ERROR - Binance API error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-24 21:05:18,762 - market_orders - ERROR - Error getting order status: APIError(code=-1102): Param 'orderid' or 'origclientorderid' must be sent, but both were empty/null!
+2025-09-24 21:30:09,182 - market_orders - INFO - Attempting market buy order: 1.0 BTCUSDT
+2025-09-24 21:30:09,567 - market_orders - INFO - Market order placed successfully: {'orderId': 5678313142, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJc6a02265d1030ee1c74378', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758729609226}
+2025-09-25 20:17:38,593 - advanced.oco - ERROR - Error validating symbol BTCUSDT: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Read timed out. (read timeout=10)
+2025-09-25 20:17:38,594 - advanced.oco - ERROR - Validation error: Invalid symbol: BTCUSDT
+2025-09-25 20:35:49,588 - __main__ - INFO - Starting Binance Trading Bot CLI
+2025-09-25 20:38:34,978 - market_orders - INFO - Attempting market sell order: 25.0 ETHUSDT
+2025-09-25 20:38:35,600 - market_orders - INFO - Market order placed successfully: {'orderId': 5028968852, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ3f43ab4eaf0a23551360cc', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '25.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758812915221}
+2025-09-25 20:45:32,343 - market_orders - INFO - Attempting market buy order: 0.15 BTCUSDT
+2025-09-25 20:45:33,203 - market_orders - ERROR - Binance API error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-25 20:46:50,843 - market_orders - INFO - Attempting market sell order: 5.0 ETHUSDT
+2025-09-25 20:46:52,072 - market_orders - INFO - Market order placed successfully: {'orderId': 5028978542, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6b2107fb7515bce5136f0d', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '5.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': True, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758813411069}
